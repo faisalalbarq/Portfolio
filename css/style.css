@@ -1,0 +1,32 @@
+.home {
+  height: 100vh;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)),
+    url(../img/bg.jpg);
+    
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-Navbar {
+  position: fixed;
+  width: 100%;
+
+  z-index: 999;
+}
+.home-caption {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  /* flex-direction: column; */
+  color: aliceblue;
+}
+.styling {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 5px;
+}
