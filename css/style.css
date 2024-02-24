@@ -1,10 +1,8 @@
 .home {
   height: 100vh;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/bg.jpg);
-    
+
   background-size: cover;
   background-attachment: fixed;
 }
@@ -27,6 +25,23 @@
 .styling {
   display: flex;
   justify-content: center;
+
   list-style: none;
   gap: 5px;
+}
+
+.styling li a {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
 }
