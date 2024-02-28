@@ -54,14 +54,13 @@
 
 .typing {
   white-space: nowrap;
-
-  animation: change-width 7s 1s infinite;
-  -webkit-animation: change-width 7s 1s infinite;
+  animation: change-width 9s 1s infinite;
+  -webkit-animation: change-width 9s 1s infinite;
 }
 .typing::after {
   content: "";
-  animation: change-words 7s 1s ease infinite;
-  -webkit-animation: change-words 7s 1s ease infinite;
+  animation: change-words 9s 1s ease infinite;
+  -webkit-animation: change-words 9s 1s ease infinite;
 }
 
 @keyframes change-width {
