@@ -187,3 +187,70 @@
 }
 
 /** End About */
+/*! Start Contact */
+
+#contact .container {
+  width: 70%;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.7s ease;
+  -webkit-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -ms-transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+
+  background-color: #c2bdbd;
+}
+
+.When-hover:hover .icon {
+  background-color: #1a1111;
+  color: aliceblue;
+}
+.When-hover > p {
+  color: #748182;
+}
+.form-control {
+  background-color: #e4e7e7;
+}
+#contact .row .button .btn {
+  transition: 0.7s ease;
+  -webkit-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -ms-transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+}
+#contact .row .button .btn:hover {
+  border: #1a1111 1px solid;
+  background-color: aliceblue;
+}
+#contact .row .button .btn a {
+  text-decoration: none;
+  color: aliceblue;
+}
+#contact .row .button .btn:hover a {
+  color: #1a1111;
+}
+/** End Contact */
+
+/*! Start Footer */
+.Footer {
+  height: 100px;
+  background-color: #2b1f1f;
+}
+
+.footer-caption {
+  color: #748182;
+}
+/** End Footer */
