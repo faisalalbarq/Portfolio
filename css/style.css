@@ -1,14 +1,12 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-section{
+section {
   padding: 50px 0;
 }
-
-
 
 #home {
   height: 100vh;
@@ -202,15 +200,14 @@ section{
 
 /*! Start Testimonials */
 
-
-.title h2{
+.title h2 {
   font-weight: 900;
   font-size: 40px;
   position: relative;
   display: inline-block;
   z-index: 4;
 }
-.title h2::after{
+.title h2::after {
   content: "";
   width: 100%;
   height: 10px;
@@ -224,12 +221,11 @@ section{
   z-index: -1;
 }
 
-.carousel-item blockquote{
-
+.carousel-item blockquote {
   padding: 30px 0;
 }
 
-.carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target] {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -242,22 +238,102 @@ section{
   opacity: 0.3;
   margin: 15px 5px;
 }
-.carousel-indicators .active{
+.carousel-indicators .active {
   opacity: 1;
 }
-.carousel-indicators button:hover{
+.carousel-indicators button:hover {
   opacity: 1;
 }
 
 /** End Testimonials  */
 
+/*! Start teams */
 
+#team .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+
+  background-color: #1a1111;
+  color: #e4e7e7;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+#team .card-img img {
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+}
+#team .card-layer {
+  background-color: white;
+
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+  opacity: 0;
+
+  transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+}
+
+/* !===> hover  */
+
+#team .card:hover .card-layer {
+  opacity: 1;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+
+  background-color: rgba(255, 254, 254, 0.8);
+}
+#team .card-img:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#team .icon:hover {
+  background-color: #ffffff;
+  color: #1a1111;
+  border: #1a1111 1px solid;
+}
+/** End teams */
 /*! Start Contact */
 
 #contact .container {
   width: 70%;
 }
-.icon {
+#contact .icon {
   width: 70px;
   height: 70px;
   border-radius: 50%;
